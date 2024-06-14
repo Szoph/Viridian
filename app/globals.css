@@ -1,33 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.archivo {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 400;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.mont {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.cormorant {
+  font-family: 'Cormorant', sans-serif;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.roboto {
+  font-family: 'Roboto', sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover; 
+}
+
+.wood {
+  color: #8B4513;
+}
+
+.gold {
+  color: #D4AF37;
+}
+
+.grey {
+  color: #4B4B4B
+}
+
+.green {
+  color: #2C5F2D;
+}
+
+.beige {
+  color: #F5F5DC
 }
