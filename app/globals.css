@@ -50,3 +50,23 @@
 .beige {
   color: #F5F5DC
 }
+
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.move-up {
+  animation: move-up 1s forwards;
+}
+
+@keyframes move-up {
+  from {
+    transform: translate(0, 100%);
+    opacity: 0;
+  } to {
+    transform: translate(0, 0); 
+    opacity: 1;
+  }
+}

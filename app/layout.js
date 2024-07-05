@@ -7,6 +7,7 @@ import Footer from '../components/HeaderFooter/Footer'
 const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"], weight: "400" });
 const roboto = Roboto({ subsets: ["latin"], weight: "400"});
+const archivo = Archivo_Narrow({ subsets: ['latin'], weight: ['400', '500', '600', '700']});
 
 export const metadata = {
   title: "Viridian Carpentry",
@@ -16,8 +17,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
-      <body className={roboto.className}>
+       
+      <body className={montserrat.className}>
       <Header />
       {children}
       <Footer />
