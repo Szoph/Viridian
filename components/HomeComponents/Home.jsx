@@ -8,7 +8,7 @@ const archivo = Archivo_Narrow({subsets: ['latin'], weight: ['500']})
 const Home = () => {
  
   return (
-    <div className=''>
+    <div className='move-right'>
 
 <div className='p-5'>
 <CarouselComponent />
