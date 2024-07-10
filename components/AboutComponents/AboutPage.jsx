@@ -1,13 +1,10 @@
 import React from 'react'
-import {Montserrat} from 'next/font/google'
-import { Drill } from 'lucide-react'
 
-const mont = Montserrat({subsets: ['latin'], weight: ['500', '600', '700', '800', '900']})
 
 const AboutPage = () => {
   return (
-    <div className='w-full flex items-center justify-center flex-col text-lg py-14'>
-        <h2 className={`${mont.className} text-6xl font-semibold pb-14`}>About Us</h2>
+    <div className='w-full flex items-center justify-center flex-col text-lg py-14 move-left'>
+        <h2 className='text-4xl font-bold mb-24'>About Us</h2>
 
         <div className='w-2/3'>
         <p className='text-lg'>Welcome to Viridian Carpentry, where expert craftsmanship meets versatile design. Founded by Cameron Rhodes, we have been delivering first-class carpentry services for several years. With a passion for woodworking and a keen eye for detail, Cameron has built a reputation for providing exceptional quality and innovative solutions for every project.</p>
@@ -15,7 +12,7 @@ const AboutPage = () => {
         </div>
 
         <div className='w-2/3 mt-10'>
-            <h8 className={`${mont.className} text-2xl font-semibold`}>Our Expertise</h8>
+            <h8 className='text-2xl font-semibold'>Our Expertise</h8>
             <p className='py-4'>At Viridian Carpentry, we pride ourselves on our adaptability and skill, offering a comprehensive range of carpentry services tailored to your needs:</p>
             <div className='flex justify-center items-center flex-col md:flex-col lg:flex-row'>
             <ul className='p-2'>

@@ -70,3 +70,45 @@
     opacity: 1;
   }
 }
+
+.move-left {
+  animation: bring-left 1s forwards;
+}
+
+@keyframes bring-left {
+  from {
+    transform: translate(100%, 0); 
+    opacity: 0;
+  } to {
+    transform: translate(0, 0); 
+    opacity: 1;
+  }
+}
+
+.move-right { 
+  animation: bring-right 1s forwards;
+} 
+
+@keyframes bring-right {
+  from {
+    transform: translate(-100%, 0); 
+    opacity: 0;
+  } to {
+    trasnform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.move-down {
+  animation: bring-down 1s forwards; 
+}
+
+ @keyframes move-down {
+  from {
+    transform: translate(0, -100%); 
+    opacity: 0;
+  } to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+ }
