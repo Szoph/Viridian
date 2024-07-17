@@ -4,22 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600&display=swap');
 
 
-.archivo {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-weight: 400;
-}
-
-.mont {
-  font-family: 'Montserrat', sans-serif;
-  
-}
-.cormorant {
-  font-family: 'Cormorant', sans-serif;
-}
-
-.roboto {
-  font-family: 'Roboto', sans-serif;
-}
 
 .carousel-container {
   max-width: 800px;
