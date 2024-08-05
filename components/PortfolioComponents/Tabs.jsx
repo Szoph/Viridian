@@ -11,12 +11,12 @@ const Tabs = ({currentTab, setCurrentTab}) => {
         setCurrentTab(tab);
     }
 
-  // useEffect(() => {
-  //   if (typeof window !== 'undefined') {
-  //     require('bootstrap/dist/js/bootstrap.bundle.min.js')
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      require('bootstrap')
 
-  //   }
-  // }, []);
+    }
+  }, []);
 
   return (
     <div className='flex justify-center my-10'>

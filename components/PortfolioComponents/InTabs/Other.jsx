@@ -1,3 +1,4 @@
+'use client'
 const Other = () => {
     const images = [
         '/Other/Other4.jpg',

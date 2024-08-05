@@ -1,3 +1,4 @@
+'use client'
 const External = () => {
     const images = [
         '/External/External1.jpg',
