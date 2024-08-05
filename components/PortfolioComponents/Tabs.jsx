@@ -19,7 +19,7 @@ const Tabs = ({currentTab, setCurrentTab}) => {
 
 
   return (
-    <div className='flex justify-center mb-4'>
+    <div className='flex justify-center my-10'>
         <ul className="nav nav-tabs flex justify-center w-full font-semibold">
   <li className="nav-item">
     <a className={`text-black md:text-lg lg:text-lg text-sm hover:cursor-pointer nav-link ${currentTab === 0 ? 'active' : ''}`} onClick={() => setTab(0)}>Kitchens</a>
