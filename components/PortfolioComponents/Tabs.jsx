@@ -12,7 +12,7 @@ const Tabs = ({currentTab, setCurrentTab}) => {
     }
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof document !== 'undefined') {
       require('bootstrap');
 
     }
