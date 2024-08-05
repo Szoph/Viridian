@@ -1,13 +1,12 @@
-import { Inter, Montserrat, Roboto, Archivo_Narrow, Cormorant  } from "next/font/google";
+import { Montserrat  } from "next/font/google";
 import "./globals.css";
 import Header from '../components/HeaderFooter/Header'
 import Footer from '../components/HeaderFooter/Footer'
 
 
-const inter = Inter({ subsets: ["latin"] });
+
 const montserrat = Montserrat({ subsets: ["latin"], weight: "400" });
-const roboto = Roboto({ subsets: ["latin"], weight: "400"});
-const archivo = Archivo_Narrow({ subsets: ['latin'], weight: ['400', '500', '600', '700']});
+
 
 export const metadata = {
   title: "Viridian Carpentry",
