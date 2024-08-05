@@ -1,7 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap';
 
 const Tabs = ({currentTab, setCurrentTab}) => {
 
@@ -11,12 +11,12 @@ const Tabs = ({currentTab, setCurrentTab}) => {
         setCurrentTab(tab);
     }
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            require('bootstrap/dist/js/bootstrap.bundle.min.js');
-    }
-    }, []);
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      require('bootstrap');
 
+    }
+  }, []);
 
   return (
     <div className='flex justify-center my-10'>
