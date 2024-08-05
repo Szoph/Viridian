@@ -19,6 +19,14 @@ const Reviews = () => {
         {
             name: 'Ryan & Stevie', 
             text: "During a revamp of our bedroom we wanted some wall panelling installing. We reached out to Cameron who was quick with his responses and had discussions with us about the sizing and shapes of the panelling we wanted to get it exactly as we had envisioned. The work was done quickly and efficiently to a great standard. It has been up for over a year now and it still looks the same as the day it was first done. We get lots of compliments at how great it looks. I would definitely recommend Cameron for joinery work and wouldn't go anywhere else."
+        }, 
+        {
+            name: 'Tim', 
+            text: 'Cameron has done a few jobs for me renovating a property to put on the rental market. His work has always been completed to an excellent standard and his attention to detail surpasses other joiners I have used. I would recommend him to anyone needing joinery work done. '
+        }, 
+        {
+            name: 'Kerry',
+            text: "Cameron has completed several jobs for me, including fitting oak doors, door frames and skirting boards. He fitted a wooden floor, removed and replaced all skirting board. He's currently fitting another floor. I would highly recommend Cameron, he always leaves everything spotless and has advised me on different options for my built-in floor to cieling cupboards. Which I love!! Highly recommended and reasonable."
         }
 
     ])

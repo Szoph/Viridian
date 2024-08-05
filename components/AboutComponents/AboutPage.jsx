@@ -24,11 +24,11 @@ const AboutPage = () => {
                 <li className='pb-1'><span className='font-semibold'>And Much More:</span> From minor repairs to extensive renovations, we bring the same level of dedication and expertise to every project we undertake.</li>
             </ul>
             <div className='w-full ml-2'>
-                <img src='/Other/Other2.jpg' className='w-96 min-w-96'/>
+                <img src='/Other/Other2.jpg' className='w-96 min-w-96 mb-6'/>
             </div>
             </div>
             <p>Experience the exceptional quality and attention to detail that define Viridian Carpentry. Let us transform your space with our expert craftsmanship. </p>
-            <p><a className='font-extrabold text-green-700 hover:cursor-pointer ' href='/contact'>Contact us</a> now for a consultation</p>
+            <p><a className='font-extrabold no-underline text-[#99582A] font-bold hover:cursor-pointer ' href='/contact'>Contact us</a> now for a consultation</p>
         </div>
     </div>
   )

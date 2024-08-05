@@ -41,7 +41,7 @@ const ServicesPage = () => {
            
       
       <div className='text-xl flex justify-center items-center my-10'>
-        <p className=''>Follow us on <a href='https://www.instagram.com/viridiancarpentry/' target='_blank' className='font-bold text-[#99582A]'>Instagram</a> to keep up to date with recent projects</p>
+        <p className='px-8'>Follow us on <a href='https://www.instagram.com/viridiancarpentry/' target='_blank' className='font-bold text-[#99582A]'>Instagram</a> to keep up to date with recent projects</p>
       </div>
     </div>
   )
