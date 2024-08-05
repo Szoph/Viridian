@@ -1,13 +1,14 @@
 'use client'
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 const CarouselComponent = () => {
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      require('bootstrap/dist/js/bootstrap.bundle.min.js');
+    if (typeof document !== 'undefined') {
+      require('bootstrap/dist/css/bootstrap.min.css')
+      
+    
     }
   }, []);
 

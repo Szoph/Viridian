@@ -1,3 +1,4 @@
+'use client'
 const Wardrobes = () => {
     const images = [
         '/Wardrobes/Wardrobes1.jpg', 
