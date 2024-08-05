@@ -1,7 +1,6 @@
 'use client';
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
 
 const Tabs = ({currentTab, setCurrentTab}) => {
 
@@ -13,7 +12,7 @@ const Tabs = ({currentTab, setCurrentTab}) => {
 
   useEffect(() => {
     if (typeof document !== 'undefined') {
-      require('bootstrap')
+      require('bootstrap/dist/css/bootstrap.min.css')
 
     }
   }, []);
