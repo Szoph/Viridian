@@ -10,9 +10,9 @@ const Flooring = () => {
         '/Flooring/Flooring7.jpg',
         '/Flooring/Flooring8.jpg',
         '/Flooring/Flooring9.jpg',
-        '/Flooring/Flooring10.jpg',
-        '/Flooring/Flooring11.jpg',
-        '/Flooring/Flooring12.jpg',
+        '/Flooring/Flooring10.JPG',
+        '/Flooring/Flooring11.JPG',
+        '/Flooring/Flooring12.JPG',
     ]
 
     return (
