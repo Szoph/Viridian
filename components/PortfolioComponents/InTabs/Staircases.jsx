@@ -10,11 +10,11 @@ const Staircases = () => {
         '/Staircases/Stairs7.jpeg',
         '/Staircases/Stairs8.jpeg',
         '/Staircases/Stairs9.jpeg',
-        '/Staircases/Stairs10.jpg',
-        '/Staircases/Stairs11.jpg',
-        '/Staircases/Stairs12.jpg',
-        '/Staircases/Stairs13.jpg',
-        '/Staircases/Stairs14.jpg',
+        '/Staircases/Stairs10.JPG',
+        '/Staircases/Stairs11.JPG',
+        '/Staircases/Stairs12.JPG',
+        '/Staircases/Stairs13.JPG',
+        '/Staircases/Stairs14.JPG',
     ]
 
     return (

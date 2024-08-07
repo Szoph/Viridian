@@ -7,10 +7,10 @@ const External = () => {
         '/External/External4.jpg',
         '/External/External5.jpg',
         '/External/External6.jpg',
-        '/External/External7.jpg',
-        '/External/External8.jpg',
-        '/External/External9.jpg',
-        '/External/External10.jpg',
+        '/External/External7.JPG',
+        '/External/External8.JPG',
+        '/External/External9.JPG',
+        '/External/External10.JPG',
     ]
 
     return (

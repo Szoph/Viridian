@@ -10,7 +10,7 @@ const Other = () => {
         '/Other/Other7.jpg',
         '/Other/Other8.jpg',
         '/Other/Other9.jpg',
-        '/Other/Other1.jpg',
+        '/Other/Other1.JPG',
 
     ]
 
