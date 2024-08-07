@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 
 const CarouselComponent = () => {
@@ -32,10 +33,10 @@ const CarouselComponent = () => {
           <img src="Kitchen1.jpg" className="d-block w-100" alt="First Slide" />
         </div>
         <div className="carousel-item">
-          <img src="/Kitchens/Kitchen12.jpg" className="d-block w-100" alt="Second Slide" />
+          <img src="/Kitchens/Kitchen12.JPG" className="d-block w-100" alt="Second Slide" />
         </div>
         <div className="carousel-item">
-          <img src="/Kitchens/Kitchen19.jpg" className="d-block w-100" alt="Third Slide" />
+          <img src="/Kitchens/Kitchen19.JPG" className="d-block w-100" alt="Third Slide" />
         </div>
         <div className="carousel-item">
           <img src="/Kitchens/Kitchen8.jpg" className="d-block w-100" alt="Third Slide" />
@@ -56,7 +57,7 @@ const CarouselComponent = () => {
           <img src="/Other/Other4.jpg" className="d-block w-100" alt="Third Slide" />
         </div>
         <div className="carousel-item">
-          <img src="/External/External10.jpg" className="d-block w-100" alt="Third Slide" />
+          <img src="/External/External10.JPG" className="d-block w-100" alt="Third Slide" />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
