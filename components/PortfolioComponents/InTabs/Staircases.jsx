@@ -1,7 +1,14 @@
 'use client'
 const Staircases = () => {
     const images = [
-        '/Staircases/Stairs1.jpeg', 
+        '/Staircases/Stairs15.jpg',
+        '/Staircases/Stairs16.jpg',
+        '/Staircases/Stairs17.jpg',
+        '/Staircases/Stairs18.jpg',
+        '/Staircases/Stairs19.jpg',
+        '/Staircases/Stairs20.jpg',
+        '/Staircases/Stairs21.jpg',
+        '/Staircases/Stairs14.JPG', 
         '/Staircases/Stairs2.jpg', 
         '/Staircases/Stairs3.jpg',
         '/Staircases/Stairs4.jpeg',
@@ -14,7 +21,7 @@ const Staircases = () => {
         '/Staircases/Stairs11.JPG',
         '/Staircases/Stairs12.JPG',
         '/Staircases/Stairs13.JPG',
-        '/Staircases/Stairs14.JPG',
+        '/Staircases/Stairs1.jpeg',
     ]
 
     return (
