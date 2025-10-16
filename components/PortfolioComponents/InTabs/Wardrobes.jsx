@@ -8,6 +8,10 @@ const Wardrobes = () => {
         '/Wardrobes/Wardrobes5.JPG',
         '/Wardrobes/Wardrobes6.JPG',
         '/Wardrobes/Wardrobes7.JPG',
+        '/Wardrobes/Wardrobes8.JPG', 
+        '/Wardrobes/Wardrobes9.JPG', 
+        '/Wardrobes/Wardrobes10.JPG',
+        
     ]
 
     return (
