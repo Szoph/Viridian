@@ -13,6 +13,10 @@ const Flooring = () => {
         '/Flooring/Flooring10.JPG',
         '/Flooring/Flooring11.JPG',
         '/Flooring/Flooring12.JPG',
+        '/Flooring/Flooring13.JPG', 
+        '/Flooring/Flooring14.JPG',
+        '/Flooring/Flooring15.JPG', 
+
     ]
 
     return (

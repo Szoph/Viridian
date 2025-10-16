@@ -22,6 +22,13 @@ const Staircases = () => {
         '/Staircases/Stairs12.JPG',
         '/Staircases/Stairs13.JPG',
         '/Staircases/Stairs1.jpeg',
+        '/Staircases/Stairs22.JPG', 
+        '/Staircases/Stairs23.JPG', 
+        '/Staircases/Stairs24.JPG', 
+        '/Staircases/Stairs25.JPG', 
+        '/Staircases/Stairs26.JPG', 
+        '/Staircases/Stairs27.JPG', 
+        
     ]
 
     return (

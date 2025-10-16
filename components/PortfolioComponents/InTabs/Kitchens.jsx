@@ -30,6 +30,11 @@ const Kitchens = () => {
         '/Kitchens/Kitchen28.jpg',
         '/Kitchens/Kitchen29.jpg',
         '/Kitchens/Kitchen30.jpg',
+        '/Kitchens/Kitchen31.JPG', 
+        '/Kitchens/Kitchen32.JPG', 
+        '/Kitchens/Kitchen33.JPG', 
+        '/Kitchens/Kitchen34.JPG',
+        '/Kitchens/Kitchen35.JPG', 
     ]
     
     return (
