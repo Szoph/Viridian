@@ -1,16 +1,14 @@
 'use client'
-const External = () => {
+const OutdoorCarpentry = () => {
     const images = [
         '/External/External1.jpg',
-        '/External/External2.jpg',
-        '/External/External3.jpg',
+        '/External/External2.JPG',
+        '/External/External3.JPG',
         '/External/External4.jpg',
         '/External/External5.jpg',
         '/External/External6.JPG',
         '/External/External7.JPG',
         '/External/External8.JPG',
-        '/External/External9.JPG',
-        '/External/External10.JPG',
     ]
 
     return (
@@ -23,4 +21,4 @@ const External = () => {
     )
 }
 
-export default External
+export default OutdoorCarpentry

@@ -2,28 +2,28 @@
 import Kitchens from './InTabs/Kitchens';
 import Staircases from './InTabs/Staircases';
 import Wardrobes from './InTabs/Wardrobes';
-import Flooring from './InTabs/Flooring';
-import External from './InTabs/External';
-import Other from './InTabs/Other';
+import BespokeJoinery from './InTabs/BespokeJoinery';
+import OutdoorCarpentry from './InTabs/OutdoorCarpentry';
+import MediaWalls from './InTabs/MediaWalls';
 
 const GalleryLayout = ({ currentTab }) => {
 
     const showGallery = () => {
         switch (currentTab) {
             case 0:
-                return <Kitchens />;
+                return <MediaWalls />;
                 case 1: 
                 return <Staircases />;
                 case 2: 
-                return <Wardrobes />;
-                case 3: 
-                return <Flooring />;
-                case 4: 
-                return <External />;
-                case 5: 
-                return <Other />;
-                default: 
                 return <Kitchens />;
+                case 3: 
+                return <BespokeJoinery />;
+                case 4: 
+                return <OutdoorCarpentry />;
+                case 5: 
+                return <Wardrobes />;
+                default: 
+                return <MediaWalls />;
         }
     }
 

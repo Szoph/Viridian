@@ -1,11 +1,22 @@
-import { Montserrat  } from "next/font/google";
+import { Montserrat, Playfair_Display  } from "next/font/google";
 import "./globals.css";
-import Header from '../components/HeaderFooter/Header'
-import Footer from '../components/HeaderFooter/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Header from '../components/HeaderFooter/Header'
+import Footer from '../components/HeaderFooter/Footer'
 
-const montserrat = Montserrat({ subsets: ["latin"], weight: "400" });
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-montserrat',
+}); 
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-playfair',
+})
 
 
 export const metadata = {
@@ -17,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <link rel="icon" href="/favicon.png" />
-      <body className={montserrat.className}>
+      <body className={`${montserrat.variable} ${playfair.variable}`}>
       <Header />
       {children}
       <Footer />

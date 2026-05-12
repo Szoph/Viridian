@@ -32,7 +32,7 @@ const Reviews = () => {
     ])
   return (
     <div className='flex flex-col justify-center items-center'>
-        <h2 className='text-3xl px-4 text-center'>Our customers love what we do</h2>
+        <h2 className='heading text-[#55342B] text-3xl px-4 text-center'>Our customers love what we do</h2>
         <p className='p-4 text-center'>Discover what our satisfted customers have to say about Viridian Carpentry</p>
 
         <ReviewCard customerTestimonies={customerTestimonies} />

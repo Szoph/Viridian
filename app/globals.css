@@ -1,8 +1,15 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600&display=swap');
 
+body {
+  font-family: var(--font-montserrat);
+}
+
+.heading {
+  font-family: var(--font-playfair);
+}
 
 
 .carousel-container {
@@ -78,7 +85,7 @@
     transform: translate(-100%, 0); 
     opacity: 0;
   } to {
-    trasnform: translate(0, 0);
+    transform: translate(0, 0);
     opacity: 1;
   }
 }

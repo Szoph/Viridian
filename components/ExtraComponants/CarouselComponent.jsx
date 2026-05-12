@@ -6,37 +6,24 @@ import Carousel from 'react-bootstrap/Carousel';
 function CarouselComponent() {
   return (
     <div className='flex justify-center'>
-    <Carousel className='lg:w-4/5 md:w-4/5 w-full'>
+    <Carousel className='lg:w-full md:w-full w-full'>
       <Carousel.Item>
-      <img src="Kitchen1.jpg" alt="First Slide" className='d-block w-100'/>
+      <img src="MediaWallHero.jpeg" alt="First Slide" className='d-block w-100'/>
       </Carousel.Item>
       <Carousel.Item>
-      <img src="Kitchens/Kitchen12.JPG" alt="Second Slide" className='d-block w-100' />
+      <img src="BespokeHero.JPG" alt="Second Slide" className='d-block w-100' />
       </Carousel.Item>
       <Carousel.Item>
-      <img src="Kitchens/Kitchen19.JPG" alt="First Slide" className='d-block w-100' />
+      <img src="Kitchens/Kitchen31.JPG" alt="First Slide" className='d-block w-100' />
       </Carousel.Item>
       <Carousel.Item>
-      <img src="Kitchens/Kitchen8.jpg" alt="First Slide" className='d-block w-100' />
+      <img src="Wardrobes/Wardrobes10.JPG" alt="First Slide" className='d-block w-100' />
       </Carousel.Item>
       <Carousel.Item>
-      <img src="Staircases/Stairs3.jpg" alt="First Slide" className='d-block w-100' />
+      <img src="DeckingHero.JPG" alt="First Slide" className='d-block w-100' />
       </Carousel.Item>
-      <Carousel.Item>
-      <img src="Staircases/Stairs6.jpeg" alt="First Slide" className='d-block w-100' />
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src="Flooring/Flooring9.jpg" alt="First Slide" className='d-block w-100' />
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src="Other/Other2.jpg" alt="First Slide" className='d-block w-100' />
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src="Other/Other4.jpg" alt="First Slide" className='d-block w-100' />
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src="External/External10.JPG" alt="First Slide" className='d-block w-100' />
-      </Carousel.Item>
+      
+      
     </Carousel>
     </div>
   )
