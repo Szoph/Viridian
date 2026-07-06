@@ -35,7 +35,7 @@ const Form = () => {
   
   <div className="my-4">
     <input type="email" className="form-control px-4 py-2 shadow-md rounded-md w-full 6 placeholder:text-black font-semibold" placeholder="Email" name="email" aria-label="Email" required />
-    <ValidationError prefix="Email" field="Email" errors={state.errors} />
+    <ValidationError prefix="Email" field="email" errors={state.errors} />
   </div>
 
  

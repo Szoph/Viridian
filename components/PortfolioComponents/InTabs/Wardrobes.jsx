@@ -1,4 +1,6 @@
 'use client'
+import Image from 'next/image';
+
 const Wardrobes = () => {
     const images = [
         '/Wardrobes/Wardrobes1.jpg', 
@@ -18,7 +20,13 @@ const Wardrobes = () => {
         <>
         {images.map((src, index) => (
             <div key={index} className='break-inside-avoid move-up'>
-                <img src={src} alt={`Wardrobe ${index}`} className='img-fluid' />
+                <Image 
+                src={src}
+                alt={`Wardrobe ${index}`}
+                width={700}
+                height={1600}
+                className='img-fluid'
+                />
             </div>
         ))}
         </>

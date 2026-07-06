@@ -1,18 +1,18 @@
 'use client'
 const BespokeJoinery = () => {
     const images = [
-        '/Bespoke Joinery/Bespoke1.jpg',
-        '/Bespoke Joinery/Bespoke2.jpg', 
-        '/Bespoke Joinery/Bespoke3.jpg',
-        '/Bespoke Joinery/Bespoke4.jpg', 
-        '/Bespoke Joinery/Bespoke5.jpg',
-        '/Bespoke Joinery/Bespoke6.jpg',
-        '/Bespoke Joinery/Bespoke7.jpg',
-        '/Bespoke Joinery/Bespoke8.JPG',
-        '/Bespoke Joinery/Bespoke9.JPG',
-        '/Bespoke Joinery/Bespoke10.JPG',
-        '/Bespoke Joinery/Bespoke11.jpg',
-        'Bespoke Joinery/Bespoke12.jpg',
+        '/BespokeJoinery/Bespoke1.jpg',
+        '/BespokeJoinery/Bespoke2.jpg', 
+        '/BespokeJoinery/Bespoke3.jpg',
+        '/BespokeJoinery/Bespoke4.jpg', 
+        '/BespokeJoinery/Bespoke5.jpg',
+        '/BespokeJoinery/Bespoke6.jpg',
+        '/BespokeJoinery/Bespoke7.jpg',
+        '/BespokeJoinery/Bespoke8.JPG',
+        '/BespokeJoinery/Bespoke9.JPG',
+        '/BespokeJoinery/Bespoke10.JPG',
+        '/BespokeJoinery/Bespoke11.jpg',
+        'BespokeJoinery/Bespoke12.jpg',
 
 
     ]

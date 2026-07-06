@@ -17,7 +17,7 @@ const Header = () => {
       {/* desktop navbar */}
       <div className='hidden lg:flex justify-center w-full'>
       <ul className='flex gap-3 p-4 mr-24'>
-       <Link href='/' className='grey text-lg no-underline hover:font-semibold'>Home</Link>
+       <Link href='/' className='grey text-lg no-underline font-medium hover:font-semibold'>Home</Link>
        <Link href='/about' className='grey text-lg no-underline font-medium hover:font-semibold'>About</Link>
        <Link href='/portfolio' className='grey text-lg no-underline font-medium hover:font-semibold'>Portfolio</Link>
        <Link href='/contact' className='grey text-lg no-underline font-medium hover:font-semibold'>Contact</Link>

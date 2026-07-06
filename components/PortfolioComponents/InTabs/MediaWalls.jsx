@@ -1,13 +1,14 @@
 'use client'
+import Image from 'next/image';
 const MediaWalls = () => {
     const images = [
-        '/Media Walls/MediaWall1.jpg',
-        '/Media Walls/MediaWall2.JPG',
-        'Media Walls/MediaWall3.jpg',
-        'Media Walls/MediaWall4.jpg',
-        'Media Walls/MediaWall5.jpg',
-        'Media Walls/MediaWall6.jpg',
-        'Media Walls/MediaWall7.jpg',
+        '/MediaWalls/MediaWall1.jpg',
+        '/MediaWalls/MediaWall2.JPG',
+        '/MediaWalls/MediaWall3.jpg',
+        '/MediaWalls/MediaWall4.jpg',
+        '/MediaWalls/MediaWall5.jpg',
+        '/MediaWalls/MediaWall6.jpg',
+        '/MediaWalls/MediaWall7.jpg',
 
 
 
@@ -17,7 +18,14 @@ const MediaWalls = () => {
         <>
         {images.map((src, index) => (
             <div key={index} className='break-inside-avoid move-up'>
-                <img src={src} alt={`Media Wall ${index}`} className='img-fluid' />
+                <Image 
+                src={src}
+                alt={`Media Wall ${index}`}
+                width={700}
+                height={1600}
+                className='img-fluid'
+                />
+                
             </div>))}
             </>
     )

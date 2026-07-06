@@ -1,4 +1,6 @@
 'use client'
+import Image from 'next/image';
+
 const OutdoorCarpentry = () => {
     const images = [
         '/External/External1.jpg',
@@ -15,7 +17,13 @@ const OutdoorCarpentry = () => {
         <>
         {images.map((src, index) => (
             <div key={index} className='break-inside-avoid move-up'>
-                <img src={src} alt={`External ${index}`} className='img-fluid' />
+                <Image 
+                src={src}
+                alt={`External ${index}`}
+                width={700}
+                height={1600}
+                className='img-fluid'
+                />
             </div>))}
             </>
     )
